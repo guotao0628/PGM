@@ -1,6 +1,6 @@
-<p align="center">Probabilistic Graphical Models for Computer Vision<p align="center"> 
+<p align="center"># Probabilistic Graphical Models for Computer Vision<p align="center"> 
 
-Qiang Ji
+<p align="center"># Qiang Ji<p align="center"> 
 
 # About the book
 
