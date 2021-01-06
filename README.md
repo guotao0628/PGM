@@ -1,50 +1,30 @@
-<p align="center"> # 译者序 <p align="center">
---------------------------------------------------------------------------------------------
-  
-&emsp; 概率图模型是图论和概率论结合，以图的方式来表示随机变量之间的依赖关系，为多变量统计建模提供了框架。
-分为有向概率图模型、无向概率图模型和混合概率图模型，研究主题包括表示、推理和学习的核心内容。目前，
-常用的概率图模型主要有贝叶斯网络（BN）、马尔可夫网络（MN）、链图（CG）、暂态模型（TM）和概率关系
-模型（PRM），是不确定性推理的一种强力有的工具，在机器学习领域越来越重要。经过三十年发展，概率图模
-型的推断和学习已经广泛用于机器学习、计算机视觉、自然语言处理、遥感图像挖掘和地面沉降等研究领域的
-最新成果，成为人工智能相关研究不可或缺的技术。
+<p align="center">Probabilistic Graphical Models for Computer Vision<p align="center"> 
+
+Qiang Ji
+
+# About the book
+
+Description
+
+-------------------------------------------------------------------------------------------------
+
+&emsp;  Probabilistic Graphical Models for Computer Vision  introduces probabilistic graphical 
+models (PGMs) for computer vision problems and teaches how to develop the PGM model from
+training data. This book discusses PGMs and their significance in the context of solving
+computer vision problems, giving the basic concepts, definitions and properties. It also
+provides a comprehensive introduction to well-established theories for different types of 
+PGMs, including both directed and undirected PGMs, such as Bayesian Networks, Markov 
+Networks and their variants.
 
 ---------------------------------------------------------------------------------------------
 
-&emsp; 大数据时代到来，以数据密集型科学研究方式，亟待人工智能算法来解决数据分析问题中蕴含的丰富的结构信息，
-如何对海量数据进行有效的知识表示、推理，已经成为人工智能领域的研究热点和难点问题。概率图模型通过将
-数据之间结构和关系进行知识表示、推理和学习，把物理世界中复杂结构抽象成随机变量之间的依赖关系，成为
-揭示数据中蕴藏的结构信息的有力工具。
+# Key Features
 
--------------------------------------------------------------------------------------------
+ * Discusses PGM theories and techniques with computer vision examples
+ * Focuses on well-established PGM theories that are accompanied by corresponding pseudocode for computer vision
+ * Includes an extensive list of references, online resources and a list of publicly available and commercial software
+ * Covers computer vision tasks, including feature extraction and image segmentation, object and facial recognition, human activity recognition, object tracking and 3D reconstruction
 
-&emsp; 本书是美国伦斯勒理工学院（Rensselaer Polytechnic Institute, RPI）纪强（Qiang Ji）教授编写的概率
-图模型专著。本书介绍了计算机视觉中的概率图模型（PGM），讨论了PGM及其在解决计算机视觉中存在的问题，
-提供了基本概念、定义和属性。专注于PGM的理论，以伪代码和推导的方式对PGM进行了详细的解释。本书共五
-章，第一章首先回顾了PGM历史及其在计算机视觉中的应用，然后介绍了本书的主要目标和PGM关键技术，最后
-讨论了本书的章节主题。第二章主要PGM的核心概念和必备的数学基础，例如最大似然估计、贝叶斯估计和判断
-估计方法。第三章介绍了有向概率图模型即贝叶斯网络（BNs），从定义、性质、类型和各种BN推理方法。第四
-章介绍了无向概率图模型，即马尔可夫网（MN），介绍了不同类型的MN，不同模型结构和参数调参，讨论了BN
-和MN之间的共性和区别。第五章全面介绍了有向和无向概率图主要使用在计算机视觉任务中，主要介绍了不同
-level层次计算机视觉的案例，例如对象识别、跟踪和3D重建等方面。本书可以作为从事计算机视觉，图像处理
-和医学成像研究的工程师，计算机科学家和统计学家的参考书。
-
-------------------------------------------------------------------------------------------------
-
-&emsp; 本译著工作主要由四川省农业科学院遥感应用研究所郭涛和首都师范大学朱琳教授合作翻译。在本书翻译的过
-程中，我得到了很多人的帮助。感谢机械工业出版社刘峰编辑和    ，他们为本书的保证质量出版，做出了大
-量的编辑和校对工作，在此深表谢意。此外，感谢本书的技术审核和翻译审校，他们是四川省农业科学院遥感
-应用研究所刘轲博士，首都师范大学李蕙君博士，研究生卢灿、曹鑫宇，福州大学郭家，四川外国语大学成都
-学院余秋琳，吉林财经大学李婷、王贺和吴禹林。
-
------------------------------------------------------------------------------------------------
-
-&emsp; 由于本书涉及的广度和深度较大，加上译者翻译水平有限，本书翻译过程中难免有错漏之处，欢迎各位读者在
-阅读过程中将本书参考源码、存在问题和错误校勘提交Github: https://github.com/guotao0628/PGM。
-
-                                                                             郭涛
-                                                               四川省农业科学院遥感应用研究所
-                                                                          2021年2月
-                                                                          
                                                                           
  ----------------------------------------------------------------------------------------------
  
