@@ -39,7 +39,8 @@ Networks and their variants.
  * Discusses PGM theories and techniques with computer vision examples
  * Focuses on well-established PGM theories that are accompanied by corresponding pseudocode for computer vision
  * Includes an extensive list of references, online resources and a list of publicly available and commercial software
- * Covers computer vision tasks, including feature extraction and image segmentation, object and facial recognition, human activity recognition, object tracking and 3D reconstruction
+ * Covers computer vision tasks, including feature extraction and image segmentation, object and facial recognition, 
+ human activity recognition, object tracking and 3D reconstruction
 
                                                            
  ----------------------------------------------------------------------------------------------
